@@ -8,7 +8,12 @@ class Artist
     songs = []
   end
   
+  def artist=(artist)
+    @artist = artist
+  end
+  
   def add_song
+end
     
     
 end
